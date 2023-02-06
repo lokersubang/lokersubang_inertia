@@ -1,4 +1,4 @@
-import Jumbotron from "@/Components/Jumbotron";
+import Ads from "@/Components/Ads";
 import Pagination from "@/Components/Pagination";
 import HomeLayout from "@/Layouts/HomeLayout";
 import Post from "@/Layouts/Post";
@@ -39,7 +39,7 @@ const Index = (props) => {
                 <meta property="og:image" content="/img/icon2.png" />
             </Head>
 
-            <Jumbotron />
+           <Ads dataAdSlot='7521179607'/>
  <div className="p-4 rounded bg-white mt-3 shadow-sm ">
             <div className="prose max-w-none text-lg text-blue-900">
                 <h3 className="border-b pb-2 border-dashed  m-0 fw-bold">

@@ -24,9 +24,7 @@ const Faq = () => {
                     <h2>Bagaimana saya membuat postingan lowongan?</h2>
                     <p>
                         Kamu hanya tinggal mengisi Judul dan Deskripsi lowongan
-                        saja. Selanjutnya tim admin yang akan menentukan
-                        kategorinya.
-                    </p>
+                        saja. Selanjutnya kirim informasi lowongan kerja melalui Nomor WhatsApp yang tertera pada menu Contact.                   </p>
                     <h2>Apa keuntungan memposting di lokersubang.com?</h2>
                     <p>
                         Kamu akan mendapatkan job seeker dengana cepat dan
@@ -36,7 +34,7 @@ const Faq = () => {
                         Salah satunya akan masuk Jobpost Google seperti berikut:
                     </p>
                     <img
-                        src="https://lokersubang.com/public/img/jobpost.JPG"
+                        src="https://lokersubang.com/storage/photos/1/jobpost.JPG"
                         className="img-fluid mt-2"
                     />
                     <br />
