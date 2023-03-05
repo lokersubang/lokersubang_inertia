@@ -25,8 +25,8 @@ class LokerController extends Controller
         };
 
 
-        //     ->add(Url::create('/kategori'))
-        //     ->add(Url::create('/contact_us'));
+        //->add(Url::create('/kategori'))
+        //->add(Url::create('/contact_us'));
 
         $sitemap = Sitemap::create();
         $posts = Post::all();
@@ -37,7 +37,8 @@ class LokerController extends Controller
 
         return inertia('Blog/Index', [
             'title' => $title,
-            'lokers' => Post::latest()->filter(request(['search', 'kategori']))->with(['category', 'user'])->fastPaginate(10)->withQueryString()]);
+            'lokers' => Post::latest()->filter(request(['search', 'kategori']))->with(['category', 'user'])->fastPaginate(10)->withQueryString()
+        ]);
     }
 
     public function show(Post $post)
