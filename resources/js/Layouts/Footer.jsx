@@ -12,7 +12,7 @@ export default function Footer() {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a href="https://t.me/loker-subang" className="nav-link text-muted">
+                        <a href="https://t.me/loker_subang" className="nav-link text-muted">
                             <i className="fa-brands text-2xl fa-telegram"></i>
                         </a>
                     </li>
