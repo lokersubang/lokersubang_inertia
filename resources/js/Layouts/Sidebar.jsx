@@ -7,23 +7,20 @@ const Sidebar = () => {
 
     const { data, setData, get, reset, processing, errors } = useForm({
         search: "",
-            });
+    });
 
     function submit(e) {
         e.preventDefault();
         get(route("home"));
-       
     }
 
     return (
         <div>
-            <div className="prose max-w-none">      
-      
-              <div className="mb-3 p-3 bg-white rounded shadow-sm">
-              
-               <Ads dataAdSlot='7521179607'/>
-              </div>
-              <div className="mb-3 p-3 bg-body rounded shadow-sm">
+            <div className="prose max-w-none">
+                <div className="mb-3 p-3 bg-white rounded shadow-sm">
+                    <Ads dataAdSlot="7521179607" />
+                </div>
+                <div className="mb-3 p-5 bg-info rounded shadow-sm">
                     <form onSubmit={submit}>
                         <div className="input-group">
                             <input
@@ -38,7 +35,7 @@ const Sidebar = () => {
 
                             <button
                                 type="submit"
-                                className="btn btn-outline-primary"
+                                className="btn bg-dark text-white"
                             >
                                 <i className="fa-solid fa-magnifying-glass mt-1"></i>
                             </button>
