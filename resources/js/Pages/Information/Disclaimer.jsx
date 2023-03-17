@@ -7,10 +7,17 @@ const Disclaimer = () => {
         <div>
             <Head>
                 <title>Disclaimer</title>
- 
-<link rel="canonical" href="https://lokersubang.com/disclaimer" />
-<meta name="keyword" content="disclaimer"/>
-<meta name="description" content="Di lokersubang.com, dapat diakses dari lokersubang.com, salah satu prioritas utama kami adalah privasi pengunjung kami. Dokumen Kebijakan Privasi ini berisi jenis informasi yang dikumpulkan dan dicatat oleh lokersubang.com dan bagaimana kami menggunakannya."/>               <link rel="icon" href="/img/icon.ico" />
+                <link
+                    rel="canonical"
+                    href="https://lokersubang.com/disclaimer"
+                />
+                <meta name="keywords" content="Disclaimer" />
+                <meta
+                    name="description"
+                    content="Disclaimer loker subang patuhi kebijakan dan pastiakan semua persyaratan yang ada di website sudah terpenuhi"
+                />
+
+                <link rel="icon" href="/img/icon.ico" />
             </Head>
             <div className="p-4 rounded bg-white shadow-sm ">
                 <Content>
