@@ -25,6 +25,7 @@ class CategoryController extends Controller
             'Blog/Category/Show',
             [
                 'title' => $category->name,
+                 'kategori'=>Category::where('id',$category->id)->first(),
                 // 'lokers' => $category->post->load('category', 'user')
                 'lokers' => Post::where('category_id', $category->id)->with(['category', 'user'])->latest()->fastPaginate(8)
             ]

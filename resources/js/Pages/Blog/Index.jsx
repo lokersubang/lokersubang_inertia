@@ -22,6 +22,7 @@ const Index = (props) => {
                     name="description"
                     content="Informasi lowongan kerja Subang dan Sekitarnya. Info loker subang terbaru dan terupdate setiap hari"
                 />
+                <link rel="canonical" href="https://lokersubang.com/" />
                 <meta name="author" content="Dadan Nurmaulana" />
                 <link rel="icon" href="/img/icon.ico" />
                 <link rel="icon" href="/img/icon.ico" />

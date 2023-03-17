@@ -3,6 +3,8 @@ import Content from "@/Layouts/Content";
 import HomeLayout from "@/Layouts/HomeLayout";
 import { Head } from "@inertiajs/inertia-react";
 import moment from "moment/moment";
+import "moment/locale/id";
+
 
 const Show = ({ article }) => {
     const articleData = {
@@ -103,6 +105,10 @@ const Show = ({ article }) => {
         <div>
             <Head>
                 <title>{article.title}</title>
+                <link
+                    rel="canonical"
+                    href={`https://lokersubang.com/${article.slug}.html`}
+                />
                 <meta name="keywords" content={article.title} />
                 <meta name="description" content={article.description} />
                 <link rel="icon" href="/img/icon.ico" />
@@ -123,6 +129,7 @@ const Show = ({ article }) => {
                 <nav aria-label="breadcrumb ">
                     <ol className="breadcrumb">
                         <li className="breadcrumb-item text-sm">Home</li>
+                        <li className="breadcrumb-item text-sm">{article.category.name}</li>
                         <li className="breadcrumb-item active text-sm">
                             {article.title}
                         </li>
@@ -151,7 +158,8 @@ const Show = ({ article }) => {
                     <h1 className="mb-3">{article.title}</h1>
                     <span className="text-sm pe-4">
                         <i className="fa-solid fa-clock"></i>{" "}
-                        {moment(article.created_at).fromNow()}
+                        {/*{moment(article.created_at).locale("id").fromNow()}*/}
+                           {moment(article.created_at).locale("id").format("DD MMMM YYYY")}
                     </span>
                     <span className="text-sm">
                         <i className="fas fa-user-edit"></i> {article.user.name}
@@ -162,7 +170,7 @@ const Show = ({ article }) => {
                     <img
                         src={article.image}
                         alt={article.title}
-                        className="img-fluid mt-2"
+                        className="img-fluid mt-2 rounded"
                         loading="lazy"
                     />
                     <div dangerouslySetInnerHTML={{ __html: article.body }} />

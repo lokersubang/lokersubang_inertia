@@ -47,9 +47,9 @@ export default function Navbar() {
                             </li>
                             <li className="nav-item dropdown m-0">
                                 <Link
-                                    as="a"
+                                    
                                     className="nav-link dropdown-toggle"
-                                    href="#"
+                                    
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
                                 >

@@ -7,6 +7,10 @@ const TermOfService = () => {
         <div>
             <Head>
                 <title>Term Of Service</title>
+
+<link rel="canonical" href="https://lokersubang.com/term-of-service" />
+<meta name="keyword" content="Term Of Service"/>
+<meta name="description" content="Dengan mengakses Situs Web ini, yang dapat diakses dari lokersubang.com, Anda setuju untuk terikat dengan Syarat dan Ketentuan Penggunaan Situs Web ini dan setuju bahwa Anda bertanggung jawab atas perjanjian dengan hukum setempat yang berlaku. "/>
                 <link rel="icon" href="/img/icon.ico" />
             </Head>
             <div className="p-4 rounded bg-white shadow-sm ">

@@ -7,6 +7,14 @@ const Contact = () => {
         <div>
             <Head>
                 <title>Contact</title>
+
+
+<link
+                    rel="canonical"
+                    href="https://lokersubang.com/contact"
+                />
+                <meta name="keywords" content="Contact" />
+                <meta name="description" content="Untuk menghubungi kontak loker subang silahkan melalui Email atau Nomor Whatasapp" />
                 <link rel="icon" href="/img/icon.ico" />
             </Head>
             <div className="p-4 rounded bg-white shadow-sm">

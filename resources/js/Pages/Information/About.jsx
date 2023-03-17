@@ -7,7 +7,14 @@ const About = () => {
         <div>
             <Head>
                 <title>About</title>
-                <link rel="icon" href="/img/icon.ico" />
+
+       <link
+                    rel="canonical"
+                    href="https://lokersubang.com/about"
+                />
+                <meta name="keywords" content="About" />
+                <meta name="description" content="Loker Subang adalah situs informasi lowongan kerja subang dimana setiap harinya selalu update Info loker subang terbaru dan terpercaya." />
+                <link rel="icon" href="/img/icon.ico" />               
             </Head>
             <div className="p-4 rounded bg-white shadow-sm ">
                 <Content>

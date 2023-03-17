@@ -1,5 +1,6 @@
 import { Link } from "@inertiajs/inertia-react";
 import moment from "moment/moment";
+import "moment/locale/id";
 import React from "react";
 
 export default function Post(props) {
@@ -10,10 +11,10 @@ export default function Post(props) {
                     <img
                         src={props.img}
                         alt={props.title}
-                        width={120}
-                        height={20}           
+                        width={121}
+                        height={20}                                 
                         loading="lazy"
-                        className="bd-placeholder-img flex-shrink-0 me-2 rounded p-2 object-center w-23 h-20"
+                        className="bd-placeholder-img flex-shrink-0 me-2 rounded shadow-sm p-2 object-center w-23 h-20"
                     />
                 </Link>
 
@@ -32,7 +33,8 @@ export default function Post(props) {
                         </Link>
                     </div>
                     <span className="d-block mt-1">
-                        <small>{moment(props.time).fromNow()}</small>
+                        {/* <small>{moment(props.time).locale("id").fromNow()}</small>*/}
+                            <small>{moment(props.time).locale("id").format("DD MMMM YYYY")} by <Link href="https://lokersubang.com" className="text-decoration-none text-primary">Loker Subang</Link></small>
                     </span>
                 </div>
             </div>

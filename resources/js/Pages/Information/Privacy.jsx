@@ -8,6 +8,10 @@ const Privacy = () => {
         <div>
             <Head>
                 <title>Privacy Policy</title>
+
+<link rel="canonical" href="https://lokersubang.com/privacy-policy"/>
+<meta name="keyword" content="Privacy Policy"/>
+<meta name="description" content="Di lokersubang.com, dapat diakses dari lokersubang.com, salah satu prioritas utama kami adalah privasi pengunjung kami. Dokumen Kebijakan Privasi ini berisi jenis informasi yang dikumpulkan dan dicatat oleh lokersubang.com dan bagaimana kami menggunakannya."/>
                 <link rel="icon" href="/img/icon.ico" />
             </Head>
             <div className="p-4 rounded bg-white shadow-sm ">

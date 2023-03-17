@@ -8,7 +8,11 @@ const Faq = () => {
         <div>
             <Head>
                 <title>FAQ</title>
-                <link rel="icon" href="/img/icon.ico" />
+
+<link rel="canonical" href="https://lokersubang.com/faq" />
+<meta name="keyword" content="Faq"/>
+<meta name="description" content="Jika ada pertanyaan mengenai lokersubang.com bisa simak penjelasan berikut ini" />                
+<link rel="icon" href="/img/icon.ico" />
             </Head>
             <div className="p-4 rounded bg-white shadow-sm ">
                 <Content>
