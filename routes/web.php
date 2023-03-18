@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\{ArticleController, CategoryController, DataArticleController, InformationController, LokerController, PostController, ProfileController};
+use App\Http\Controllers\{ArticleController, CategoryController, DataArticleController, InformationController, LokerController, PostController, ProfileController, SitemapController};
 use App\Models\Category;
 use App\Models\Post;
 use Illuminate\Foundation\Application;
@@ -75,3 +75,4 @@ Route::get('kategori', [CategoryController::class, 'index'])->name('category');
 Route::get('kategori/{category:slug}', [CategoryController::class, 'show'])->name('category.show');
 
 // sitemap
+Route::get('sitemap.xml', [SitemapController::class]);
