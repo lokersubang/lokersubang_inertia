@@ -12,7 +12,7 @@ export default function Post(props) {
                         src={props.img}
                         alt={props.title}
                         width={121}
-                        height={20}                                 
+                        height={20}
                         loading="lazy"
                         className="bd-placeholder-img flex-shrink-0 me-2 rounded shadow-sm p-2 object-center w-23 h-20"
                     />
@@ -34,7 +34,18 @@ export default function Post(props) {
                     </div>
                     <span className="d-block mt-1">
                         {/* <small>{moment(props.time).locale("id").fromNow()}</small>*/}
-                            <small>{moment(props.time).locale("id").format("DD MMMM YYYY")} by <Link href="https://lokersubang.com" className="text-decoration-none text-primary">Loker Subang</Link></small>
+                        <small>
+                            {moment(props.time)
+                                .locale("id")
+                                .format("DD MMMM YYYY")}{" "}
+                            by{" "}
+                            <Link
+                                href="https://lokersubang.com"
+                                className="text-decoration-none text-primary"
+                            >
+                                Loker Subang
+                            </Link>
+                        </small>
                     </span>
                 </div>
             </div>
