@@ -47,9 +47,7 @@ export default function Navbar() {
                             </li>
                             <li className="nav-item dropdown m-0">
                                 <Link
-                                    
                                     className="nav-link dropdown-toggle"
-                                    
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
                                 >
@@ -80,7 +78,7 @@ export default function Navbar() {
                                             Luar Kota
                                         </Link>
                                     </li>
-                                     <li>
+                                    <li>
                                         <Link
                                             as="a"
                                             className="dropdown-item"
@@ -89,7 +87,7 @@ export default function Navbar() {
                                                 "freelance"
                                             )}
                                         >
-                                           Freelance
+                                            Freelance
                                         </Link>
                                     </li>
                                     <li>
@@ -119,9 +117,7 @@ export default function Navbar() {
                                             CPNS
                                         </Link>
                                     </li>
-                                    
-                                        
-                                    
+
                                     <li>
                                         <Link
                                             as="a"
@@ -270,27 +266,27 @@ export default function Navbar() {
                         >
                             Contact
                         </Link>
-                        <Link
+                        {/* <Link
                             href={route("privacyPolicy")}
                             className="nav-link"
                             as="a"
                         >
                             Privacy Policy
-                        </Link>
-                        <Link
+                        </Link> */}
+                        {/* <Link
                             href={route("disclaimer")}
                             className="nav-link text-decoration-none"
                             as="a"
                         >
                             Disclaimer
-                        </Link>
-                        <Link
+                        </Link> */}
+                        {/* <Link
                             href={route("termOfService")}
                             className="nav-link text-decoration-none "
                             as="a"
                         >
                             Term Of Service
-                        </Link>
+                        </Link> */}
                         <Link
                             href={route("faq")}
                             className="nav-link text-decoration-none "
