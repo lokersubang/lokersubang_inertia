@@ -7,15 +7,16 @@ const Disclaimer = () => {
         <div>
             <Head>
                 <title>Disclaimer</title>
-                {/* <link
+
+                <link
                     rel="canonical"
                     href="https://lokersubang.com/disclaimer"
                 />
                 <meta name="keywords" content="Disclaimer" />
                 <meta
                     name="description"
-                    content="Disclaimer loker subang patuhi kebijakan dan pastiakan semua persyaratan yang ada di website sudah terpenuhi"
-                /> */}
+                    content="Disclaimer loker subang patuhi kebijakan dan pastiakan"
+                />
 
                 <link rel="icon" href="/img/icon.ico" />
             </Head>
