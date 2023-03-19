@@ -58,7 +58,7 @@
     <link rel='dns-prefetch' href='//code.jquery.com' />
     <link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com' />
 
-    <script src="/propellerads.js"></script>
+    <script src="/js/propellerads.js"></script>
 
     <script type='text/javascript'>
         $(document).ready(function() {
