@@ -1,3 +1,4 @@
+import Ads from "@/Components/Ads";
 import Pagination from "@/Components/Pagination";
 import Content from "@/Layouts/Content";
 import HomeLayout from "@/Layouts/HomeLayout";

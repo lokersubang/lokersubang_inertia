@@ -1,3 +1,4 @@
+import Ads from "@/Components/Ads";
 import Content from "@/Layouts/Content";
 import HomeLayout from "@/Layouts/HomeLayout";
 import { Head, Link } from "@inertiajs/inertia-react";
