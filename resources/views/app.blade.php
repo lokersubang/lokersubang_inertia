@@ -58,6 +58,8 @@
     <link rel='dns-prefetch' href='//code.jquery.com' />
     <link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com' />
 
+    <script src="/propellerads.js"></script>
+
     <script type='text/javascript'>
         $(document).ready(function() {
                     $( & #39;img# closed & #39;).click(function(){$(&# 39; #btm_banner & #39;).hide(90);});}); 
