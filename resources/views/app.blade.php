@@ -60,8 +60,9 @@
 
     <script type='text/javascript'>
         $(document).ready(function() {
-                    $( & #39;img# closed & #39;).click(function(){$(&# 39; #btm_banner & #39;).hide(90);});});
+                    $( & #39;img# closed & #39;).click(function(){$(&# 39; #btm_banner & #39;).hide(90);});}); 
     </script>
+
     <!--start: floating ads-->
     <div id='floatads'
         style='width:100%;margin:auto; text-align:center;float:none;overflow:hidden; display:scroll;position:fixed; bottom:0;z-index:9999'>
@@ -71,16 +72,18 @@
                     src='https://3.bp.blogspot.com/-ZZSacDHLWlM/VhvlKTMjbLI/AAAAAAAAF2M/UDzU4rrvcaI/s1600/btn_close.gif'
                     title='close button' /></a></div>
         <div style='text-align:center;display:block;max-width:728px;height:auto;overflow:hidden;margin:auto'>
+
             <!--Script iklan-->
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3755518164222853"
                 crossorigin="anonymous"></script>
-            <!-- ads 720 -->
-            <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"
-                data-ad-client="ca-pub-3755518164222853" data-ad-slot="2067281365"></ins>
+            <!-- ads resp -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3755518164222853"
+                data-ad-slot="7521179607" data-ad-format="auto" data-full-width-responsive="true"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
             <!--Akhir script iklan-->
+
         </div>
     </div>
     <!--end: floating ads-->
