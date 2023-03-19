@@ -75,4 +75,4 @@ Route::get('kategori', [CategoryController::class, 'index'])->name('category');
 Route::get('kategori/{category:slug}', [CategoryController::class, 'show'])->name('category.show');
 
 // sitemap
-Route::get('sitemap.xml', [SitemapController::class]);
+Route::get('sitemap.xml', SitemapController::class);

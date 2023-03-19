@@ -8,11 +8,12 @@ const Index = ({ categories }) => {
         <div>
             <Head>
                 <title>Semua Kategori</title>
-                
+
                 <link rel="canonical" href="https://lokersubang.com/kategori" />
                 <link rel="icon" href="/img/icon.ico" />
             </Head>
-            <div className="p-4 rounded bg-white shadow-sm ">
+            <Ads dataAdSlot="7521179607" />
+            <div className="p-4 rounded bg-white shadow-sm mt-3">
                 <Content>
                     <h2>Semua Kategori</h2>
                     <ul>

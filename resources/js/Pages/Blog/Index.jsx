@@ -17,7 +17,7 @@ const Index = (props) => {
                 </title>
                 <meta
                     name="keywords"
-                    content="loker subang, info loker subang, loker karawang, loker purwakarta, loker indramayu, loker majalengka, loker bandung"
+                    content="loker subang, loker subang 2023, info loker subang, loker karawang, loker purwakarta, loker indramayu, loker majalengka, loker bandung, lowongan kerja subang"
                 />
                 <meta
                     name="description"
@@ -25,7 +25,6 @@ const Index = (props) => {
                 />
                 <link rel="canonical" href="https://lokersubang.com/" />
                 <meta name="author" content="Dadan Nurmaulana" />
-                <link rel="icon" href="/img/icon.ico" />
                 <link rel="icon" href="/img/icon.ico" />
                 <meta property="og:type" content="article" />
                 <meta
@@ -38,7 +37,7 @@ const Index = (props) => {
                     Sekitarnya"
                 />
                 <meta property="og:url" content="https:/lokersubang.com" />
-                <meta property="og:image" content="/img/icon2.png" />
+                <meta property="og:image" content="/img/icon.png" />
             </Head>
             <Ads dataAdSlot="7521179607" />
             <Jumbotron />

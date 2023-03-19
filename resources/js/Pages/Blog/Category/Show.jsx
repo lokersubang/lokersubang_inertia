@@ -8,16 +8,20 @@ import React from "react";
 const Show = (props) => {
     const { data: lokers, links, from } = props.lokers;
     const { title } = props;
-    const {kategori} = props;
+    const { kategori } = props;
     return (
         <div>
             <Head>
                 <title>{title}</title>
 
-                <link rel="canonical" href={`https://lokersubang.com/kategori/${kategori.slug}`} />
+                <link
+                    rel="canonical"
+                    href={`https://lokersubang.com/kategori/${kategori.slug}`}
+                />
                 <link rel="icon" href="/img/icon.ico" />
             </Head>
-            <div className="p-4 rounded bg-white shadow-sm ">
+            <Ads dataAdSlot="7521179607" />
+            <div className="p-4 rounded bg-white shadow-sm mt-3">
                 <Content>
                     <h2 className="border-b border-dashed">{title}</h2>
                 </Content>
