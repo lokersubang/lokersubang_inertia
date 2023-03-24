@@ -17,9 +17,9 @@ const Sidebar = () => {
     return (
         <div>
             <div className="prose max-w-none">
-                <div className="mb-3 p-3 bg-white rounded shadow-sm">
+                {/* <div className="mb-3 p-3 bg-white rounded shadow-sm">
                     <Ads dataAdSlot="7521179607" />
-                </div>
+                </div> */}
                 <div className="mb-3 p-5 bg-info rounded shadow-sm">
                     <form onSubmit={submit}>
                         <div className="input-group">
