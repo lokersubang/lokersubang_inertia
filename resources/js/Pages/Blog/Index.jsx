@@ -21,7 +21,7 @@ const Index = (props) => {
                 />
                 <meta
                     name="description"
-                    content="Informasi lowongan kerja Subang dan Sekitarnya. Info loker subang terbaru dan terupdate setiap hari"
+                    content="Informasi lowongan kerja Subang dan Sekitarnya. Info loker subang terbaru dan terupdate setiap hari Daerah Subang, Purwakarta, Karawang, Majalengka, Indramayu, Cikarang, Bekasi dan Bandung"
                 />
                 <link rel="canonical" href="https://lokersubang.com/" />
                 <meta name="author" content="Dadan Nurmaulana" />
