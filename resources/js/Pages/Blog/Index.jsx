@@ -41,7 +41,7 @@ const Index = (props) => {
             </Head>
             <Ads dataAdSlot="7521179607" />
             <Jumbotron />
-            <div className="p-4 rounded bg-white mt-3 shadow-sm ">
+            <div className="p-4 rounded bg-white mt-3 shadow-sm mb-3">
                 <div className="prose max-w-none text-lg text-blue-900">
                     <h3 className="border-b pb-2 border-dashed  m-0 fw-bold">
                         Loker Terbaru
@@ -73,6 +73,7 @@ const Index = (props) => {
 
                 <Pagination links={links} />
             </div>
+            <Ads dataAdSlot="7521179607" />
         </div>
     );
 };

@@ -22,7 +22,7 @@ const Show = (props) => {
                 <link rel="icon" href="/img/icon.ico" />
             </Head>
             <Ads dataAdSlot="7521179607" />
-            <div className="p-4 rounded bg-white shadow-sm mt-3">
+            <div className="p-4 rounded bg-white shadow-sm mt-3 mb-3">
                 <Content>
                     <h2 className="border-b border-dashed">{title}</h2>
                 </Content>
