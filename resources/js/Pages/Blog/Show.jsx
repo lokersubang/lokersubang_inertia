@@ -120,12 +120,18 @@ const Show = ({ article }) => {
             {
                 "@type": "ListItem",
                 position: 1,
+                name: "Home",
+                item: `https://lokersubang.com`,
+            },
+            {
+                "@type": "ListItem",
+                position: 2,
                 name: article.category.name,
                 item: `https://lokersubang.com/kategori/${article.category.name}`,
             },
             {
                 "@type": "ListItem",
-                position: 2,
+                position: 3,
                 name: article.title,
                 item: `https://lokersubang.com/${article.slug}`,
             },
