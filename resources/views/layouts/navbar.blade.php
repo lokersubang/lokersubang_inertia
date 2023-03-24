@@ -21,8 +21,8 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="/kategori/loker-subang">Loker Subang</a></li>
                         <li><a class="dropdown-item" href="/kategori/luar-kota">Luar Kota</a></li>
-                       <li><a class="dropdown-item" href="/kategori/freelance">Freelance</a></li>
-                         <li>
+                        <li><a class="dropdown-item" href="/kategori/freelance">Freelance</a></li>
+                        <li>
                             <hr class="dropdown-divider">
                         </li>
                         <li><a class="dropdown-item" href="/kategori/cpns">CPNS</a></li>
@@ -98,12 +98,12 @@
                 Friends
                 <span class="badge text-bg-light rounded-pill align-text-bottom">27</span>
             </a> --}}
-            <a class="nav-link active" aria-current="page" href="#">About</a>
-            <a class="nav-link" href="#">Contact</a>
-            <a class="nav-link" href="#">Privacy Policy</a>
-            <a class="nav-link" href="#">Disclaimer</a>
-            <a class="nav-link" href="#">Ternm Of Service</a>
-            <a class="nav-link" href="#">FAQ?</a>
+            <a class="nav-link" href="{{ route('about') }}">About</a>
+            <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+            <a class="nav-link" href="{{ route('privacyPolicy') }}">Privacy Policy</a>
+            <a class="nav-link" href="{{ route('disclaimer') }}">Disclaimer</a>
+            <a class="nav-link" href="{{ route('termOfService') }}">Ternm Of Service</a>
+            <a class="nav-link" href="{{ route('faq') }}">FAQ?</a>
         </nav>
     </div>
 </div>
