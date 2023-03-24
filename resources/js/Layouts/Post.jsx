@@ -14,7 +14,7 @@ export default function Post(props) {
                         width={121}
                         height={20}
                         loading="lazy"
-                        className="bd-placeholder-img flex-shrink-0 me-2 rounded shadow-sm p-2 object-center w-23 h-20"
+                        className="bd-placeholder-img flex-shrink-0 me-2 rounded shadow-sm p-2 object-center w-30 h-30"
                     />
                 </Link>
 
