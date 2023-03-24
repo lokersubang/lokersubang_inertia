@@ -1,10 +1,9 @@
 import Ads from "@/Components/Ads";
 import Content from "@/Layouts/Content";
 import HomeLayout from "@/Layouts/HomeLayout";
-import { Head } from "@inertiajs/inertia-react";
+import { Head, Link } from "@inertiajs/inertia-react";
 import moment from "moment/moment";
 import "moment/locale/id";
-
 
 const Show = ({ article }) => {
     const articleData = {
@@ -101,6 +100,38 @@ const Show = ({ article }) => {
         },
     };
 
+    const ratingData = {
+        "@context": "https://schema.org/",
+        "@type": "Book",
+        name: "Artikel lokersubang.com",
+        aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "5",
+            ratingCount: "1728",
+            bestRating: "5",
+            worstRating: "1",
+        },
+    };
+
+    const breadcrumbData = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+            {
+                "@type": "ListItem",
+                position: 1,
+                name: article.category.name,
+                item: `https://lokersubang.com/kategori/${article.category.name}`,
+            },
+            {
+                "@type": "ListItem",
+                position: 2,
+                name: article.title,
+                item: `https://lokersubang.com/${article.slug}`,
+            },
+        ],
+    };
+
     return (
         <div>
             <Head>
@@ -129,7 +160,14 @@ const Show = ({ article }) => {
                 <nav aria-label="breadcrumb ">
                     <ol className="breadcrumb">
                         <li className="breadcrumb-item text-sm">Home</li>
-                        <li className="breadcrumb-item text-sm">{article.category.name}</li>
+                        <li className="breadcrumb-item text-sm">
+                            <Link
+                                href={`https://lokersubang.com/kategori/${article.category.slug}`}
+                            >
+                                {" "}
+                                {article.category.name}
+                            </Link>
+                        </li>
                         <li className="breadcrumb-item active text-sm">
                             {article.title}
                         </li>
@@ -159,13 +197,15 @@ const Show = ({ article }) => {
                     <span className="text-sm pe-4">
                         <i className="fa-solid fa-clock"></i>{" "}
                         {/*{moment(article.created_at).locale("id").fromNow()}*/}
-                           {moment(article.created_at).locale("id").format("DD MMMM YYYY")}
+                        {moment(article.created_at)
+                            .locale("id")
+                            .format("DD MMMM YYYY")}
                     </span>
                     <span className="text-sm">
                         <i className="fas fa-user-edit"></i> {article.user.name}
                     </span>
                     <div className="border-dashed border-b mb-3 mt-2 border-green-600" />
-                   <Ads dataAdSlot='7521179607'/>
+                    <Ads dataAdSlot="7521179607" />
 
                     <img
                         src={article.image}
@@ -205,7 +245,7 @@ const Show = ({ article }) => {
                         </>
                     )}
 
-                    <Ads dataAdSlot='7521179607'/>
+                    <Ads dataAdSlot="7521179607" />
 
                     <div className="border-dotted border-b mt-2 border-green-600" />
                     <div className="mt-3">
@@ -238,13 +278,44 @@ const Show = ({ article }) => {
                     </div>
                 </Content>
                 {article.category_id == 9 || article.category_id == 8 ? (
-                    <></>
+                    <>
+                        <script
+                            type="application/ld+json"
+                            dangerouslySetInnerHTML={{
+                                __html: JSON.stringify(articleData),
+                            }}
+                        />
+                        <script
+                            type="application/ld+json"
+                            dangerouslySetInnerHTML={{
+                                __html: JSON.stringify(ratingData),
+                            }}
+                        />
+                        <script
+                            type="application/ld+json"
+                            dangerouslySetInnerHTML={{
+                                __html: JSON.stringify(breadcrumbData),
+                            }}
+                        />
+                    </>
                 ) : (
                     <>
                         <script
                             type="application/ld+json"
                             dangerouslySetInnerHTML={{
                                 __html: JSON.stringify(job2),
+                            }}
+                        />
+                        <script
+                            type="application/ld+json"
+                            dangerouslySetInnerHTML={{
+                                __html: JSON.stringify(ratingData),
+                            }}
+                        />
+                        <script
+                            type="application/ld+json"
+                            dangerouslySetInnerHTML={{
+                                __html: JSON.stringify(breadcrumbData),
                             }}
                         />
                     </>
