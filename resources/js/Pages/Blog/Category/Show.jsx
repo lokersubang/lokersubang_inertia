@@ -40,6 +40,7 @@ const Show = (props) => {
                     <Pagination links={links} />
                 </div>
             </div>
+            <Ads dataAdSlot="7521179607" />
         </div>
     );
 };
