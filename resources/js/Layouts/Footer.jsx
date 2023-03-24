@@ -7,7 +7,7 @@ export default function Footer() {
         <div>
             <footer className="py-3 mb-5 mt-3">
                 <ul className="nav justify-content-center border-b border-green-400 border-dashed pb-3 mb-3">
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <Link
                             href={route("disclaimer")}
                             className="nav-link text-decoration-none text-muted"
@@ -33,7 +33,7 @@ export default function Footer() {
                         >
                             Term Of Service
                         </Link>
-                    </li>
+                    </li> */}
                 </ul>
                 <p className="text-center text-muted ">
                     &copy; {tahun} lokersubang.com

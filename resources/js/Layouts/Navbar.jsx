@@ -266,27 +266,27 @@ export default function Navbar() {
                         >
                             Contact
                         </Link>
-                        {/* <Link
+                        <Link
                             href={route("privacyPolicy")}
                             className="nav-link"
                             as="a"
                         >
                             Privacy Policy
-                        </Link> */}
-                        {/* <Link
+                        </Link>
+                        <Link
                             href={route("disclaimer")}
                             className="nav-link text-decoration-none"
                             as="a"
                         >
                             Disclaimer
-                        </Link> */}
-                        {/* <Link
+                        </Link>
+                        <Link
                             href={route("termOfService")}
                             className="nav-link text-decoration-none "
                             as="a"
                         >
                             Term Of Service
-                        </Link> */}
+                        </Link>
                         <Link
                             href={route("faq")}
                             className="nav-link text-decoration-none "
