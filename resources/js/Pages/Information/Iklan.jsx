@@ -1,5 +1,6 @@
 import Content from "@/Layouts/Content";
 import HomeLayout from "@/Layouts/HomeLayout";
+import { Head } from "@inertiajs/inertia-react";
 import React from "react";
 
 const Iklan = () => {
