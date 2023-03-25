@@ -254,8 +254,8 @@ export default function Navbar() {
                     <nav className="nav" aria-label="Secondary navigation">
                         <Link class="nav-link" href={route("iklan")} as="a">
                             Pasang Iklan
-                            <span class="badge text-bg-warning rounded-pill align-text-bottom">
-                                Gratis !!!
+                            <span class="badge pl-1 text-bg-warning rounded-pill text-white align-text-bottom">
+                                <small>Gratis !!!</small>
                             </span>
                         </Link>
                         <Link
