@@ -8,12 +8,12 @@ export default function Jumbotron() {
                     <h1 className="mb-0 leading-relaxed font-extrabold text-slate-800">
                         Loker Subang
                     </h1>
-                    <h2 className="mt-0 text-lg">
+                    <p className="mt-0 text-lg">
                         Informasi Lowongan Kerja Subang dan Sekitarnya. Info
                         loker subang terbaru dan terupdate setiap hari Daerah
                         Subang, Purwakarta, Karawang, Majalengka, Indramayu,
                         Cikarang, Bekasi dan Bandung
-                    </h2>
+                    </p>
                 </div>
             </div>
         </div>
