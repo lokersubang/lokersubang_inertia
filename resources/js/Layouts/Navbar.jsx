@@ -252,6 +252,12 @@ export default function Navbar() {
             <div className="nav-scroller bg-body shadow-sm">
                 <div className="container-xl">
                     <nav className="nav" aria-label="Secondary navigation">
+                        <Link class="nav-link" href={route("iklan")} as="a">
+                            Pasang Iklan
+                            <span class="badge text-bg-warning rounded-pill align-text-bottom">
+                                Gratis !!!
+                            </span>
+                        </Link>
                         <Link
                             href={route("about")}
                             className="nav-link text-decoration-none "
