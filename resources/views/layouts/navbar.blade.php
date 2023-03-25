@@ -95,8 +95,10 @@
     <div class="container">
         <nav class="nav" aria-label="Secondary navigation">
             <a class="nav-link" href="{{ route('iklan') }}">
-                Pasang Iklan
-                <span class="badge text-bg-warning rounded-pill align-text-top">Gratis !!!</span>
+                Pasang Iklan &nbsp;
+                <span class="badge text-bg-warning rounded-pil align-text-top">
+                    <small>Gratis !!!</small>
+                </span>
             </a>
             <a class="nav-link" href="{{ route('about') }}">About</a>
             <a class="nav-link" href="{{ route('contact') }}">Contact</a>
