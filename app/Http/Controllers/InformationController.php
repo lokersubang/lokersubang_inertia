@@ -11,6 +11,11 @@ class InformationController extends Controller
         return inertia('Information/About');
     }
 
+    public function iklan()
+    {
+        return inertia('Information/Iklan');
+    }
+
     public function contact()
     {
         return inertia('Information/Contact');

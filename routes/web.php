@@ -33,6 +33,7 @@ Route::group(['prefix' => 'data-lowongan/laravel-filemanager', 'middleware' => [
 
 // Information
 Route::get('about', [InformationController::class, 'about'])->name('about');
+Route::get('pasang-iklan', [InformationController::class, 'iklan'])->name('iklan');
 Route::get('contact', [InformationController::class, 'contact'])->name('contact');
 Route::get('privacy-policy', [InformationController::class, 'privacyPolicy'])->name('privacyPolicy');
 Route::get('disclaimer', [InformationController::class, 'disclaimer'])->name('disclaimer');
