@@ -253,7 +253,7 @@ export default function Navbar() {
                 <div className="container-xl">
                     <nav className="nav" aria-label="Secondary navigation">
                         <Link class="nav-link" href={route("iklan")} as="a">
-                            Pasang Iklan
+                            Pasang Iklan{" "}
                             <span class="badge text-bg-warning rounded-pil align-text-top">
                                 <small>Gratis !!!</small>
                             </span>
