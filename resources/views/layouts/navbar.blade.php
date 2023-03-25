@@ -94,10 +94,10 @@
 <div class="nav-scroller bg-body shadow-sm">
     <div class="container">
         <nav class="nav" aria-label="Secondary navigation">
-            {{-- <a class="nav-link" href="#">
-                Friends
-                <span class="badge text-bg-light rounded-pill align-text-bottom">27</span>
-            </a> --}}
+            <a class="nav-link" href="{{ route('iklan') }}">
+                Pasang Iklan
+                <span class="badge text-bg-warning rounded-pill align-text-top">Gratis !!!</span>
+            </a>
             <a class="nav-link" href="{{ route('about') }}">About</a>
             <a class="nav-link" href="{{ route('contact') }}">Contact</a>
             <a class="nav-link" href="{{ route('privacyPolicy') }}">Privacy Policy</a>
