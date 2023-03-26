@@ -312,7 +312,7 @@ const Show = ({ article }) => {
                                 __html: JSON.stringify(job2),
                             }}
                         />
-                        <script
+                        {/* <script
                             type="application/ld+json"
                             dangerouslySetInnerHTML={{
                                 __html: JSON.stringify(ratingData),
@@ -323,7 +323,7 @@ const Show = ({ article }) => {
                             dangerouslySetInnerHTML={{
                                 __html: JSON.stringify(breadcrumbData),
                             }}
-                        />
+                        /> */}
                     </>
                 )}
             </div>

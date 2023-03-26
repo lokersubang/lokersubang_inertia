@@ -42,8 +42,8 @@ export default function Navbar() {
                                     as="a"
                                     className="nav-link active text-decoration-none"
                                 >
-                                    <i className="fa-solid fa-house"></i> Loker
-                                    Subang 2023
+                                    <i className="fa-solid fa-house"></i>
+                                    Loker Subang 2023
                                 </Link>
                             </li>
                             <li className="nav-item dropdown m-0">
