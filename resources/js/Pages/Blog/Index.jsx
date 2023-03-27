@@ -12,8 +12,8 @@ const Index = (props) => {
         <div>
             <Head>
                 <title>
-                    Loker Subang 2023 - Informasi Lowongan Kerja Subang dan
-                    Sekitarnya Maret 2023.
+                    Loker Subang - Informasi Lowongan Kerja Subang dan
+                    Sekitarnya
                 </title>
                 <meta
                     name="keywords"
