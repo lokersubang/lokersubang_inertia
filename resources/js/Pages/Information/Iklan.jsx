@@ -1,3 +1,4 @@
+import Ads from "@/Components/Ads";
 import Content from "@/Layouts/Content";
 import HomeLayout from "@/Layouts/HomeLayout";
 import { Head } from "@inertiajs/inertia-react";
@@ -19,7 +20,9 @@ const Iklan = () => {
                 />
                 <link rel="icon" href="/img/icon.ico" />
             </Head>
-            <div className="p-4 rounded bg-white shadow-sm ">
+
+            <Ads dataAdSlot="7521179607" />
+            <div className="p-4 rounded bg-white shadow-sm mt-3">
                 <Content>
                     <h1>Pasang Iklan Di Lokersubang.com</h1>
 

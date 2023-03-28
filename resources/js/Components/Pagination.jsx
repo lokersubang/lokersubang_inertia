@@ -4,7 +4,7 @@ import React from "react";
 const Pagination = ({ links }) => {
     return (
         <div>
-         <div className="table-responsive">
+            {/* <div className="table-responsive"> */}
             <nav aria-label="Page navigation example mt-4 ">
                 <ul className="pagination mt-3">
                     {links.map((link, k) => (
@@ -28,8 +28,8 @@ const Pagination = ({ links }) => {
                     ))}
                 </ul>
             </nav>
-          </div>
-      </div>
+            {/* </div> */}
+        </div>
     );
 };
 
