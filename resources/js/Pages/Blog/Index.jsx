@@ -50,7 +50,7 @@ const Index = (props) => {
                 <div className="row mb-3">
                     {lokers.length !== 0 ? (
                         lokers.map((loker) => (
-                            <div className="col-md-6" key={loker.id}>
+                            <div className="col-md-12" key={loker.id}>
                                 <Post
                                     title={loker.title}
                                     // img={loker.image}
