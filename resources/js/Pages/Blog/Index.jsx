@@ -70,10 +70,8 @@ const Index = (props) => {
                         </div>
                     )}
                 </div>
-
-                <Pagination links={links} />
             </div>
-            <Ads dataAdSlot="7521179607" />
+            <Pagination links={links} />
         </div>
     );
 };

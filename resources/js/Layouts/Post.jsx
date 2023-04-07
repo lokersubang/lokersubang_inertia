@@ -11,8 +11,8 @@ export default function Post(props) {
                     <img
                         src={props.img}
                         alt={props.title}
-                        width={100}
-                        height={100}
+                        width={150}
+                        height={150}
                         loading="lazy"
                         className="bd-placeholder-img flex-shrink-0 me-2 rounded p-2"
                         // className="bd-placeholder-img flex-shrink-0 me-2 rounded shadow-sm p-2 object-center w-30 h-30"
