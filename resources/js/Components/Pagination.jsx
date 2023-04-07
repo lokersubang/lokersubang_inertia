@@ -5,8 +5,8 @@ const Pagination = ({ links }) => {
     return (
         <div>
             <div className="table-responsive">
-                <nav aria-label="Page navigation example mt-4 ">
-                    <ul className="pagination mt-3">
+                <nav aria-label="Page navigation example mt-2 ">
+                    <ul className="pagination">
                         {links.map((link, k) => (
                             <div key={k}>
                                 <li
