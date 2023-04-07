@@ -70,8 +70,8 @@ const Index = (props) => {
                         </div>
                     )}
                 </div>
+                <Pagination links={links} />
             </div>
-            <Pagination links={links} />
         </div>
     );
 };
