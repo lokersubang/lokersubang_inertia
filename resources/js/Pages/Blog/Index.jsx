@@ -41,37 +41,37 @@ const Index = (props) => {
             </Head>
             <Ads dataAdSlot="7521179607" />
             <Jumbotron />
-            <div className="p-4 rounded mt-3 mb-3">
-                <div className="prose max-w-none text-lg text-blue-900">
-                    <h3 className="border-b pb-2 border-dashed  m-0 fw-bold">
-                        Loker Terbaru
-                    </h3>
-                </div>
-                <div className="row mb-3">
-                    {lokers.length !== 0 ? (
-                        lokers.map((loker) => (
-                            <div className="col-md-6" key={loker.id}>
-                                <Post
-                                    title={loker.title}
-                                    // img={loker.image}
-                                    img={loker.image ?? "/img/404.jpg"}
-                                    time={loker.created_at}
-                                    slug={loker.slug}
-                                />
-                            </div>
-                        ))
-                    ) : (
-                        <div className="col-md-6 mt-3">
-                            <div className="alert alert-warning">
-                                <h1 className="font-bold">
-                                    Lowongan Tidak Ditemukan !
-                                </h1>
-                            </div>
-                        </div>
-                    )}
-                </div>
-                <Pagination links={links} />
+            {/* <div className="p-4 rounded mt-3 mb-3"> */}
+            <div className="prose max-w-none text-lg text-blue-900">
+                <h3 className="border-b pb-2 border-dashed  m-0 fw-bold">
+                    Loker Terbaru
+                </h3>
             </div>
+            <div className="row mb-3">
+                {lokers.length !== 0 ? (
+                    lokers.map((loker) => (
+                        <div className="col-md-6" key={loker.id}>
+                            <Post
+                                title={loker.title}
+                                // img={loker.image}
+                                img={loker.image ?? "/img/404.jpg"}
+                                time={loker.created_at}
+                                slug={loker.slug}
+                            />
+                        </div>
+                    ))
+                ) : (
+                    <div className="col-md-6 mt-3">
+                        <div className="alert alert-warning">
+                            <h1 className="font-bold">
+                                Lowongan Tidak Ditemukan !
+                            </h1>
+                        </div>
+                    </div>
+                )}
+            </div>
+            <Pagination links={links} />
+            {/* </div> */}
         </div>
     );
 };
