@@ -14,6 +14,7 @@ export default function Navbar() {
                         <img
                             src="/img/logo.png"
                             width={135}
+                            height={80}
                             alt="lokersubang.com"
                             loading="lazy"
                         />
