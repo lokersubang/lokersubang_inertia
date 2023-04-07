@@ -25,7 +25,7 @@ export default function Post(props) {
                             href={route("post.show", props.slug)}
                             className="text-slate-900 hover:text-green-400"
                         >
-                            <div className="text-gray-dark mb-2 fs-6">
+                            <div className="text-gray-dark mb-2 fs-6 leading-relaxed">
                                 {/* <div className="text-success">subang</div> */}
                                 {/* <div className="d-block mt-1 leading-relaxed"> */}
                                 {props.title}
