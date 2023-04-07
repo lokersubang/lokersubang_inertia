@@ -37,7 +37,8 @@ const Sidebar = () => {
                                 type="submit"
                                 className="btn bg-dark text-white"
                             >
-                                <i className="fa-solid fa-magnifying-glass mt-1"></i>
+                                {/* <i className="fa-solid fa-magnifying-glass mt-1"></i> */}
+                                Cari
                             </button>
                         </div>
                     </form>
@@ -75,7 +76,7 @@ const Sidebar = () => {
                                 target="_blank"
                                 className="nav-link text-muted text-decoration-none"
                             >
-                                <i className="fa-brands text-2xl fa-facebook pr-3"></i>{" "}
+                                {/* <i className="fa-brands text-2xl fa-facebook pr-3"></i>{" "} */}
                                 Facebook
                             </a>
                         </li>
@@ -85,7 +86,7 @@ const Sidebar = () => {
                                 target="_blank"
                                 className="nav-link text-muted text-decoration-none"
                             >
-                                <i className="fa-brands text-2xl fa-instagram pr-3"></i>{" "}
+                                {/* <i className="fa-brands text-2xl fa-instagram pr-3"></i>{" "} */}
                                 Instagram
                             </a>
                         </li>
@@ -95,7 +96,7 @@ const Sidebar = () => {
                                 target="_blank"
                                 className="nav-link text-muted text-decoration-none"
                             >
-                                <i className="fa-brands text-2xl fa-telegram pr-3"></i>{" "}
+                                {/* <i className="fa-brands text-2xl fa-telegram pr-3"></i>{" "} */}
                                 Telegram
                             </a>
                         </li>
@@ -105,7 +106,7 @@ const Sidebar = () => {
                                 target="_blank"
                                 className="nav-link text-muted text-decoration-none"
                             >
-                                <i className="fa-brands text-2xl fa-twitter pr-3"></i>{" "}
+                                {/* <i className="fa-brands text-2xl fa-twitter pr-3"></i>{" "} */}
                                 Twitter
                             </a>
                         </li>
@@ -116,7 +117,7 @@ const Sidebar = () => {
                                 target="_blank"
                                 className="nav-link text-muted text-decoration-none"
                             >
-                                <i className="fa-brands text-2xl fa-linkedin pr-3"></i>{" "}
+                                {/* <i className="fa-brands text-2xl fa-linkedin pr-3"></i>{" "} */}
                                 Linkedin
                             </a>
                         </li>
