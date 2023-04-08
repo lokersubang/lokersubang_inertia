@@ -18,23 +18,16 @@ class LokerController extends Controller
     public function index(Request $request)
     {
         $title = null;
-        $category = Cache::remember('category', 10 * 60, function () {
-            return Category::firstWhere('slug', request('kategori'));
-        });
+
         if (request('kategori')) {
-            $cat = $category;
-            // $cat = Category::firstWhere('slug', request('kategori'));
+            $cat = Category::firstWhere('slug', request('kategori'));
             $title = $cat->name;
         };
 
 
-        $lokers = Cache::remember('lokers', 10 * 60, function () {
-            return Post::latest()->filter(request(['search', 'kategori']))->with(['category', 'user'])->fastPaginate(10)->withQueryString();
-        });
         return inertia('Blog/Index', [
             'title' => $title,
-            'lokers' => $lokers
-            // 'lokers' => Post::latest()->filter(request(['search', 'kategori']))->with(['category', 'user'])->fastPaginate(10)->withQueryString()
+            'lokers' => Post::latest()->filter(request(['search', 'kategori']))->with(['category', 'user'])->fastPaginate(10)->withQueryString()
         ]);
     }
 
