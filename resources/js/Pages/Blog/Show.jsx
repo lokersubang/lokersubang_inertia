@@ -211,7 +211,7 @@ const Show = ({ article }) => {
                         <i className="fas fa-user-edit"></i> {article.user.name}
                     </span>
                     <div className="border-dashed border-b mb-3 mt-2 border-green-600" />
-                    <Ads dataAdSlot="7521179607" />
+                    {/* <Ads dataAdSlot="7521179607" /> */}
 
                     <img
                         src={article.image}
@@ -251,7 +251,7 @@ const Show = ({ article }) => {
                         </>
                     )}
 
-                    <Ads dataAdSlot="7521179607" />
+                    {/* <Ads dataAdSlot="7521179607" /> */}
 
                     <div className="border-dotted border-b mt-2 border-green-600" />
                     <div className="mt-3">

@@ -13,7 +13,7 @@ const Index = ({ categories }) => {
                 <link rel="canonical" href="https://lokersubang.com/kategori" />
                 <link rel="icon" href="/img/icon.ico" />
             </Head>
-            <Ads dataAdSlot="7521179607" />
+            {/* <Ads dataAdSlot="7521179607" /> */}
             <div className="p-4 rounded bg-white shadow-sm mt-3">
                 <Content>
                     <h2>Semua Kategori</h2>

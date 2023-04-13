@@ -39,7 +39,7 @@ const Index = (props) => {
                 <meta property="og:url" content="https:/lokersubang.com" />
                 <meta property="og:image" content="/img/icon.png" />
             </Head>
-            <Ads dataAdSlot="7521179607" />
+            {/* <Ads dataAdSlot="7521179607" /> */}
             <Jumbotron />
             <div className=" mt-3 mb-3">
                 <div className="prose max-w-none text-lg text-blue-900">
