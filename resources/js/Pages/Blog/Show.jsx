@@ -220,12 +220,12 @@ const Show = ({ article }) => {
                         loading="lazy"
                     />
                     <div dangerouslySetInnerHTML={{ __html: article.body }} />
-
+                    <Ads dataAdSlot="7521179607" />
                     {article.category_id == 9 || article.category_id == 8 ? (
                         <div />
                     ) : (
                         <>
-                            <div className="p-3 mb-3 text-white bg-danger rounded">
+                            <div className="p-3 mb-3 mt-3 text-white bg-danger rounded">
                                 <h2 className="text-white mt-0">Penting !!!</h2>
                                 <p>
                                     Apabila dalam proses recuitment terdapat
@@ -250,8 +250,6 @@ const Show = ({ article }) => {
                             </div>
                         </>
                     )}
-
-                    <Ads dataAdSlot="7521179607" />
 
                     <div className="border-dotted border-b mt-2 border-green-600" />
                     <div className="mt-3">
