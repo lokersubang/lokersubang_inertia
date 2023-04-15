@@ -2,4 +2,4 @@
 
 <p>Aplikasi ini digunakan dengan Inertia ReactJs dan Laravel Vite</p>
 
-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
+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
