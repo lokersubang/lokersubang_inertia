@@ -47,7 +47,7 @@ export default function Navbar() {
                                 </Link>
                             </li>
                             <li className="nav-item dropdown m-0">
-                                <Linka
+                                <Link
                                     as="a"
                                     href="#"
                                     className="nav-link dropdown-toggle"
@@ -55,7 +55,7 @@ export default function Navbar() {
                                     aria-expanded="false"
                                 >
                                     Lowongan Kerja
-                                </Linka>
+                                </Link>
                                 <ul className="dropdown-menu ">
                                     <li>
                                         <Link
