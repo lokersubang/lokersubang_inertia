@@ -13,8 +13,8 @@ export default function Navbar() {
                     <Link className="navbar-brand p-2" href={route("home")}>
                         <img
                             src="/img/logo.png"
-                            width={135}
-                            height={80}
+                            width={130}
+                            height={75}
                             alt="lokersubang.com"
                             loading="lazy"
                         />
