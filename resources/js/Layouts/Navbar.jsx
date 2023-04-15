@@ -47,13 +47,15 @@ export default function Navbar() {
                                 </Link>
                             </li>
                             <li className="nav-item dropdown m-0">
-                                <Link
+                                <Linka
+                                    as="a"
+                                    href="#"
                                     className="nav-link dropdown-toggle"
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
                                 >
                                     Lowongan Kerja
-                                </Link>
+                                </Linka>
                                 <ul className="dropdown-menu ">
                                     <li>
                                         <Link
