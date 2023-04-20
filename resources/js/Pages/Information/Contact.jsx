@@ -8,13 +8,12 @@ const Contact = () => {
             <Head>
                 <title>Contact</title>
 
-
-<link
-                    rel="canonical"
-                    href="https://lokersubang.com/contact"
-                />
+                <link rel="canonical" href="https://lokersubang.com/contact" />
                 <meta name="keywords" content="Contact" />
-                <meta name="description" content="Untuk menghubungi kontak loker subang silahkan melalui Email atau Nomor Whatasapp" />
+                <meta
+                    name="description"
+                    content="Untuk menghubungi kontak loker subang silahkan melalui Email atau Nomor Whatasapp"
+                />
                 <link rel="icon" href="/img/icon.ico" />
             </Head>
             <div className="p-4 rounded bg-white shadow-sm">
@@ -26,7 +25,7 @@ const Contact = () => {
                         <b> Email</b> atau <b>Nomor WhatsApp</b> Berikut :
                     </p>
                     <ul>
-                        <li>admin@lokersubang.com</li>
+                        <li>redaksilokersubang@gmail.com</li>
                         <li>085814962075</li>
                     </ul>
                     <iframe
