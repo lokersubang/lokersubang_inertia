@@ -22,7 +22,7 @@ const Iklan = () => {
             </Head>
 
             <Ads dataAdSlot="7521179607" />
-            <div className="p-4 rounded bg-white shadow-sm mt-3">
+            <div className="p-4 rounded bg-white shadow-sm">
                 <Content>
                     <h1>Pasang Iklan Di Lokersubang.com</h1>
 

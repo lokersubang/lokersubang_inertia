@@ -1,6 +1,11 @@
 import { Link, useForm, usePage } from "@inertiajs/inertia-react";
 import Ads from "@/Components/Ads";
 import React from "react";
+import { IconBrandFacebook, IconSearch } from "@tabler/icons-react";
+import { IconBrandTelegram } from "@tabler/icons-react";
+import { IconBrandInstagram } from "@tabler/icons-react";
+import { IconBrandX } from "@tabler/icons-react";
+import { IconBrandLinkedin } from "@tabler/icons-react";
 
 const Sidebar = () => {
     const { list } = usePage().props;
@@ -38,7 +43,7 @@ const Sidebar = () => {
                                 className="btn bg-dark text-white"
                             >
                                 {/* <i className="fa-solid fa-magnifying-glass mt-1"></i> */}
-                                Cari
+                                <IconSearch className="items-center fw-bold inline-block" />{" "}
                             </button>
                         </div>
                     </form>
@@ -69,14 +74,14 @@ const Sidebar = () => {
                     <h3 className="border-b pb-2 border-dashed  m-0 fw-bold">
                         Ikuti Kami
                     </h3>
-                    <ul>
+                    <ul className="list-outside">
                         <li>
                             <a
                                 href="https://www.facebook.com/websitelokersubang"
                                 target="_blank"
                                 className="nav-link text-muted text-decoration-none"
                             >
-                                {/* <i className="fa-brands text-2xl fa-facebook pr-3"></i>{" "} */}
+                                <IconBrandFacebook className="items-center fw-bold inline-block" />{" "}
                                 Facebook
                             </a>
                         </li>
@@ -86,7 +91,7 @@ const Sidebar = () => {
                                 target="_blank"
                                 className="nav-link text-muted text-decoration-none"
                             >
-                                {/* <i className="fa-brands text-2xl fa-instagram pr-3"></i>{" "} */}
+                                <IconBrandInstagram className="items-center fw-bold inline-block" />{" "}
                                 Instagram
                             </a>
                         </li>
@@ -96,7 +101,7 @@ const Sidebar = () => {
                                 target="_blank"
                                 className="nav-link text-muted text-decoration-none"
                             >
-                                {/* <i className="fa-brands text-2xl fa-telegram pr-3"></i>{" "} */}
+                                <IconBrandTelegram className="items-center fw-bold inline-block" />{" "}
                                 Telegram
                             </a>
                         </li>
@@ -106,7 +111,7 @@ const Sidebar = () => {
                                 target="_blank"
                                 className="nav-link text-muted text-decoration-none"
                             >
-                                {/* <i className="fa-brands text-2xl fa-twitter pr-3"></i>{" "} */}
+                                <IconBrandX className="items-center fw-bold inline-block" />{" "}
                                 Twitter
                             </a>
                         </li>
@@ -117,7 +122,7 @@ const Sidebar = () => {
                                 target="_blank"
                                 className="nav-link text-muted text-decoration-none"
                             >
-                                {/* <i className="fa-brands text-2xl fa-linkedin pr-3"></i>{" "} */}
+                                <IconBrandLinkedin className="items-center fw-bold inline-block" />{" "}
                                 Linkedin
                             </a>
                         </li>
